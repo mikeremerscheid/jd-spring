@@ -12,11 +12,11 @@ public class CybertekApp {
 
         Course course = container.getBean("java",Course.class);
 
-        Course course2 =container.getBean("java",Course.class);
+//        Course course2 =container.getBean("java",Course.class);
 
         course.getTeachingHours();
 
-        ((AnnotationConfigApplicationContext)container).close();
+//        ((AnnotationConfigApplicationContext)container).close();
 
 
     }

@@ -4,14 +4,12 @@ import com.cybertek.interfaces.ExtraSessions;
 import com.cybertek.services.Java;
 import com.cybertek.services.OfficeHours;
 import com.cybertek.services.Selenium;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.*;
 
 @Configuration
 @ComponentScan("com.cybertek")
 @PropertySource("application.properties")
+
 public class CybertekAppConfig {
 
     @Bean
