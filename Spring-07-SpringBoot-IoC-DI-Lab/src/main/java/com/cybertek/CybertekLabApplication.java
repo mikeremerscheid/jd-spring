@@ -10,4 +10,6 @@ public class CybertekLabApplication {
 		SpringApplication.run(CybertekLabApplication.class, args);
 	}
 
+
+
 }
